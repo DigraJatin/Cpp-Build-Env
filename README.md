@@ -9,3 +9,12 @@ HelloCMake
     - Run command for cmake configuration step - "cmake .. -G Ninja"
     - Run build command - "cmake --build ."
     - Run HelloCMake.exe to see output.
+
+RestApiDemo
+- Learn to integrate single header third party code into main file.
+- Learn about basic Rest Api.
+- Build using msvc, since httplib requires windows specific functions.
+- Build using "cmake --build ."
+- Run the server and use curl commands to test response -> 
+        - curl http://localhost:8080/health
+        - curl "http://localhost:8080/hello?name=Jatin"
