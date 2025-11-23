@@ -1,0 +1,64 @@
+########################################
+# Build directories (CMake, VS, etc.)
+########################################
+build/
+*/build/
+
+########################################
+# CMake generated files
+########################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+########################################
+# Visual Studio
+########################################
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.ipch
+*.opensdf
+*.sdf
+*.cachefile
+
+########################################
+# VS Code (optional: ignore local settings)
+########################################
+.vscode/
+
+########################################
+# Compiled objects & binaries
+########################################
+*.obj
+*.o
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.idb
+*.exp
+
+########################################
+# Logs / temp
+########################################
+*.log
+*.tmp
+
+########################################
+# OS junk
+########################################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
