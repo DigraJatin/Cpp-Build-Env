@@ -18,3 +18,14 @@ RestApiDemo
 - Run the server and use curl commands to test response -> 
         - curl http://localhost:8080/health
         - curl "http://localhost:8080/hello?name=Jatin"
+
+Vcpkg01
+- Learn about how to integrate a third party lib like poco,fmt into project using vcpkg.
+- Used G++, Ninja, vcpkg, CMake
+-  Command to configure once or same can be done is .vscode settings.json file - 
+cmake -S . -B build ^
+    -G "Ninja" ^
+    -DCMAKE_TOOLCHAIN_FILE="C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake" ^
+    -DVCPKG_TARGET_TRIPLET=x64-mingw-static ^
+    -DCMAKE_C_COMPILER=gcc ^
+    -DCMAKE_CXX_COMPILER=g+
